@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/navigation1"
+            android:checked="false"
+            android:icon="@drawable/ic_beranda"
+            android:title="@string/navigation_view_item_1" />
+        <item
+            android:id="@+id/navigation2"
+            android:checked="false"
+            android:icon="@drawable/ic_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/navigation3"
+            android:checked="false"
+            android:icon="@drawable/ic_peta"
+            android:title="Peta" />
+        <item
+            android:id="@+id/navigation4"
+            android:checked="false"
+            android:icon="@drawable/ic_batterai"
+            android:title="Cek Batterai" />
+
+
+    </group>
+
+
+    <item
+        android:id="@+id/navigasi_kategori_2"
+        android:title="@string/navigasi_kategori_2">
+        <menu>
+            <item
+                android:id="@+id/navigation5"
+                android:checked="false"
+                android:icon="@drawable/ic_about"
+                android:title="@string/navigation_view_item_5" />
+            <item
+                android:id="@+id/navigation6"
+                android:checked="false"
+                android:icon="@drawable/ic_keluar"
+                android:title="keluar" />
+
+        </menu>
+    </item>
+
+</menu>
